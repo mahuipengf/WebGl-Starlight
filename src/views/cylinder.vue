@@ -32,6 +32,7 @@ const mesh = new THREE.Mesh(geometry, material);
 // 在X、Y和Z方向上放大几何体 (圆台) 的大小，使其变为原来的两倍大小
 mesh.scale.set(2, 2, 2);
 
+
 // 将圆台模型添加到场景中
 scene.add(mesh);
 

@@ -33,6 +33,11 @@ const router = createRouter({
       name: 'cylinder',
       component: () => import('../views/cylinder.vue')
     },
+    {
+      path: '/revolution',
+      name: 'revolution',
+      component: () => import('../views/revolution.vue')
+    },
   ]
 })
 
